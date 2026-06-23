@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kim Ruzzel L. Enteria · Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- ===== TOPBAR ===== -->
+    <header class="topbar">
+        <div class="topbar__left">
+            <a href="#home" class="home-button">⌂ Home</a>
+        </div>
+
+        <nav class="topbar__nav" aria-label="Primary navigation">
+            <a href="#skills">Skills</a>
+            <a href="#description">Description</a>
+            <a href="#experience">Experience</a>
+            <a href="#fields">Fields</a>
+            <a href="#projects">Projects</a>
+            <a href="#gallery">Gallery</a>
+
+            <!-- Accounts dropdown -->
+            <details class="dropdown">
+                <summary>Accounts</summary>
+                <div class="dropdown__menu">
+                    <a href="#social-media">Social Media</a>
+                    <a href="#contacts">Contacts</a>
+                    <a href="#others">Others</a>
+                    <a href="#donations">Donations</a>
+                </div>
+            </details>
+
+            <!-- Theme toggle -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-toggle__icon">☀</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main>
+
+        <!-- HOME / HERO -->
+        <section id="home" class="section section--centered hero">
+            <img class="hero__avatar" src="img/main_page/profile_picture.png" alt="Kim Ruzzel L. Enteria profile picture" />
+            <h1>Kim Ruzzel L. Enteria</h1>
+            <p class="hero__motto">"A multitasking hobbyist with a heart of good governance"</p>
+            <blockquote class="hero__quote">"An ordinary being born in the complicated world, learning to turn curiosity into meaningful work and creative growth."</blockquote>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="cards cards--skills">
+                <article class="card card--skill">
+                    <img src="img/skills/art_skill.png" alt="Illustrating" />
+                    <h3>Illustrating</h3>
+                </article>
+                <article class="card card--skill">
+                    <img src="img/skills/ink_skill.png" alt="Writing" />
+                    <h3>Writing</h3>
+                </article>
+                <article class="card card--skill">
+                    <img src="img/skills/digital_skill.png" alt="Web Developing" />
+                    <h3>Web Developing</h3>
+                </article>
+                <article class="card card--skill">
+                    <img src="img/skills/programming_skill.png" alt="Programming" />
+                    <h3>Programming</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- DESCRIPTION -->
+        <section id="description" class="section section--split">
+            <div>
+                <h2>Description</h2>
+                <p>I combine creative vision with practical digital skills to produce work that is both expressive and functional. This portfolio page highlights the balance between artistic interests and technology, exploring how strong communication and thoughtful design support meaningful projects. Every line of code and every stroke of the pen reflects a commitment to clarity, purpose, and quiet excellence.</p>
+            </div>
+            <img src="img/main_page/description.png" alt="Description illustration" />
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section section--split section--reverse">
+            <div>
+                <h2>Education &amp; Experience</h2>
+                <ul class="experience-list">
+                    <li>Studied the fundamentals of design, communication, and web technologies through hands-on learning.</li>
+                    <li>Built cross-disciplinary skills by combining illustration, writing, and development for real-world creative tasks.</li>
+                    <li>Gained experience in collaborative environments, adapting ideas into clear visual and technical solutions.</li>
+                    <li>Continuously exploring emerging tools to stay curious and adaptable in a fast-changing digital landscape.</li>
+                </ul>
+            </div>
+            <img src="img/main_page/education.png" alt="Education and experience" />
+        </section>
+
+        <!-- FIELDS -->
+        <section id="fields" class="section">
+            <h2>Fields</h2>
+            <div class="fields-grid">
+                <article class="field-card">
+                    <img src="img/fields/illustration_fields.png" alt="Illustration field" />
+                    <h3>Illustration</h3>
+                </article>
+                <article class="field-card">
+                    <img src="img/fields/programming_fields.png" alt="Computer technology field" />
+                    <h3>Computer Technology</h3>
+                </article>
+                <article class="field-card field-card--others">
+                    <img src="img/fields/illustration_fields.png" alt="Others field" />
+                    <details>
+                        <summary>Others</summary>
+                        <ul>
+                            <li>Writing</li>
+                            <li>IT Maintenance Intern</li>
+                            <li>Pollwatcher</li>
+                        </ul>
+                    </details>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Projects here would showcase portfolio work from illustration, writing, development, and governance-focused collaborations. Each project can demonstrate a blend of creativity, user-centered design, and technical execution.</p>
+            <div class="projects-placeholder">
+                <span>⚙️</span>
+                <span>✏️</span>
+                <span>🖥️</span>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section id="gallery" class="section">
+            <h2>Gallery</h2>
+            <p>The gallery is reserved for artwork, interface sketches, visual stories, and sample layouts that capture the style and energy behind Kim's work.</p>
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder__item"></div>
+                <div class="gallery-placeholder__item"></div>
+                <div class="gallery-placeholder__item"></div>
+                <div class="gallery-placeholder__item"></div>
+            </div>
+        </section>
+
+        <!-- SOCIAL MEDIA -->
+        <section id="social-media" class="section">
+            <h2>Social Media</h2>
+            <div class="cards cards--icons">
+                <article class="icon-card">
+                    <img src="img/social_media/fb1.png" alt="Facebook 1" />
+                    <p>Facebook 1</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/social_media/fb2.png" alt="Facebook 2" />
+                    <p>Facebook 2</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/social_media/instagram.png" alt="Instagram" />
+                    <p>Instagram</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/social_media/x.png" alt="X" />
+                    <p>X</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACTS -->
+        <section id="contacts" class="section">
+            <h2>Contacts</h2>
+            <div class="cards cards--icons">
+                <article class="icon-card">
+                    <img src="img/contacts/email.png" alt="Email" />
+                    <p>Email</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/contacts/proton_mail.png" alt="Proton Mail" />
+                    <p>Proton Mail</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- OTHERS (accounts) -->
+        <section id="others" class="section">
+            <h2>Others</h2>
+            <div class="cards cards--icons">
+                <article class="icon-card">
+                    <img src="img/other_accounts/deviant_art.png" alt="Deviant Art" />
+                    <p>Deviant Art</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/other_accounts/github.png" alt="GitHub" />
+                    <p>GitHub</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/other_accounts/patreon.png" alt="Patreon" />
+                    <p>Patreon</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- DONATIONS -->
+        <section id="donations" class="section">
+            <h2>Donations</h2>
+            <div class="cards cards--icons">
+                <article class="icon-card">
+                    <img src="img/donations/paypal.png" alt="PayPal" />
+                    <p>PayPal</p>
+                </article>
+                <article class="icon-card">
+                    <img src="img/donations/gcash.png" alt="GCash" />
+                    <p>GCash</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>© 2026 Kim Ruzzel L. Enteria · Built as a first main portfolio page.</p>
+    </footer>
+
+    <!-- ===== THEME TOGGLE SCRIPT ===== -->
+    <script>
+        (function() {
+            const toggle = document.getElementById('themeToggle');
+            const icon = toggle.querySelector('.theme-toggle__icon');
+            const html = document.documentElement;
+
+            function setTheme(theme) {
+                html.setAttribute('data-theme', theme);
+                icon.textContent = theme === 'dark' ? '☾' : '☀';
+                localStorage.setItem('theme', theme);
+            }
+
+            // Load saved theme
+            const saved = localStorage.getItem('theme');
+            if (saved && (saved === 'dark' || saved === 'light')) {
+                setTheme(saved);
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                setTheme('dark');
+            }
+
+            toggle.addEventListener('click', () => {
+                const current = html.getAttribute('data-theme');
+                setTheme(current === 'dark' ? 'light' : 'dark');
+            });
+        })();
+    </script>
+
+</body>
+</html>
