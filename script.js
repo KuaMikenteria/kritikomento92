@@ -10,7 +10,6 @@
     localStorage.setItem("theme", theme);
   }
 
-  // Load saved theme
   const saved = localStorage.getItem("theme");
   if (saved && (saved === "dark" || saved === "light")) {
     setTheme(saved);
